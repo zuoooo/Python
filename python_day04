@@ -1,0 +1,10 @@
+
+def std_weight(height, sex) :
+    if sex == "여자" :
+        print("키{0}cm 여자 표준 체중은 {1}kg입니다.".format(height,round(height*height*0.0001*21, 2)))
+    elif sex == "남자" :
+        print("키{0}cm 남자 표준 체중은 {1}kg입니다.".format(height,round(height*height*0.0001*22, 2)))
+    else : 
+        print("성별은 남자 또는 여자를 입력해 주세요.")
+
+std_weight(175,"남자")
